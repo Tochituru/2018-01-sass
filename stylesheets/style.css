@@ -3,17 +3,7 @@ body {
   background: turquoise;
 }
 
-/* line 7, ../sass/style.scss */
-.breadcrumb {
+/* line 8, ../sass/style.scss */
+.breadcrumb ul {
   display: inline-block;
-  list-style-type: none;
-}
-/* line 10, ../sass/style.scss */
-.breadcrumb ul li:hover {
-  background: green;
-}
-
-/* line 21, ../sass/style.scss */
-.text {
-  border: solid black 10px;
 }

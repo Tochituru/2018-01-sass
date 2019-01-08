@@ -5,19 +5,7 @@ body {
 }
 
 .breadcrumb {
+    ul {
     display: inline-block;
-    ul li {
-        &:hover {
-            background: green;
-        }
-    }
-    list-style-type: none;
 }
-
-@mixin bordes {
-    border: solid black 10px;
-}
-
-.text {
-    @include bordes()
 }
