@@ -1,0 +1,23 @@
+@import "partials/base";
+
+body {
+    background: $color-fondo;
+}
+
+.breadcrumb {
+    display: inline-block;
+    ul li {
+        &:hover {
+            background: green;
+        }
+    }
+    list-style-type: none;
+}
+
+@mixin bordes {
+    border: solid black 10px;
+}
+
+.text {
+    @include bordes()
+}
